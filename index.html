@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>دعوة خاصة</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eee5dc;
+    font-family: 'Cairo', sans-serif;
+    color: #5b4032;
+}
+
+.invitation {
+    max-width: 480px;
+    min-height: 100vh;
+    margin: auto;
+    padding: 45px 25px;
+    background: linear-gradient(145deg, #f8f0e8, #ead9ca);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.invitation::before {
+    content: "";
+    position: absolute;
+    inset: 15px;
+    border: 1px solid #b99b7c;
+    border-radius: 180px 180px 20px 20px;
+    pointer-events: none;
+}
+
+.monogram {
+    font-family: 'Amiri', serif;
+    font-size: 58px;
+    margin-top: 20px;
+    letter-spacing: 8px;
+}
+
+.flower {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.small {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-family: 'Amiri', serif;
+    font-size: 38px;
+    margin: 25px 0 10px;
+}
+
+.names {
+    font-family: 'Amiri', serif;
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.heart {
+    color: #a87561;
+    margin: 0 8px;
+}
+
+.message {
+    font-size: 17px;
+    line-height: 2;
+    margin: 20px 25px;
+}
+
+.details {
+    margin-top: 30px;
+    display: grid;
+    gap: 15px;
+}
+
+.detail {
+    padding: 12px;
+    border-top: 1px solid #c7ab91;
+}
+
+.detail strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.detail span {
+    font-size: 17px;
+}
+
+.map-button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 30px;
+    border-radius: 35px;
+    background: #9b6d59;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 5px 15px rgba(90,60,45,0.2);
+}
+
+.footer {
+    margin-top: 35px;
+    font-family: 'Amiri', serif;
+    font-size: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="invitation">
+
+    <div class="monogram">L ♥ A</div>
+
+    <div class="flower">❦</div>
+
+    <div class="small">دعوة خاصة</div>
+
+    <h1>بكل حب وسعادة</h1>
+
+    <p class="message">
+        ندعوكم لمشاركتنا أجمل لحظات حياتنا
+        والاحتفال معنا بهذه المناسبة المميزة
+    </p>
+
+    <div class="names">
+        ليان <span class="heart">♥</span> أحمد
+    </div>
+
+    <p class="message">
+        حضوركم يكمل فرحتنا 🤍
+    </p>
+
+    <div class="details">
+
+        <div class="detail">
+            <strong>📅 التاريخ</strong>
+            <span>السبت 20 أبريل 2024</span>
+        </div>
+
+        <div class="detail">
+            <strong>🕕 الوقت</strong>
+            <span>6:00 مساءً</span>
+        </div>
+
+        <div class="detail">
+            <strong>📍 المكان</strong>
+            <span>قاعة ليلاك – عمّان، دابوق</span>
+        </div>
+
+    </div>
+
+    <a
+        class="map-button"
+        href="https://www.google.com/maps/search/?api=1&query=Lilac+Hall+Amman"
+        target="_blank">
+        📍 موقع الحفل على الخريطة
+    </a>
+
+    <div class="footer">
+        ننتظر حضوركم بكل حب 🤍
+    </div>
+
+</div>
+
+</body>
+</html>
